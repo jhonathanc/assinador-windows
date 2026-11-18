@@ -1,0 +1,17 @@
+<Application x:Class="Jhonju.Assinador.Windows.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+  <Application.Resources>
+    <SolidColorBrush x:Key="BrandBrush" Color="#0756A1" />
+    <Style TargetType="Button">
+      <Setter Property="Padding" Value="14,9" />
+      <Setter Property="Margin" Value="0,0,8,0" />
+      <Setter Property="Cursor" Value="Hand" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+      <Setter Property="Background" Value="#EDF3FA" />
+      <Setter Property="BorderBrush" Value="#C8D6E5" />
+    </Style>
+    <Style TargetType="TextBox"><Setter Property="Padding" Value="8,6" /></Style>
+  </Application.Resources>
+</Application>

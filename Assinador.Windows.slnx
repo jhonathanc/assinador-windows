@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Assinador.Core/Assinador.Core.csproj" />
+    <Project Path="src/Assinador.Windows/Assinador.Windows.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Assinador.Tests/Assinador.Tests.csproj" />
+  </Folder>
+</Solution>

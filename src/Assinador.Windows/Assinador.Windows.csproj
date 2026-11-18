@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>Jhonju.Assinador.Windows</RootNamespace>
+    <AssemblyName>Assinador.Windows</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Assinador.Core/Assinador.Core.csproj" />
+    <Content Include="../../LICENSE" Link="LICENSE" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../NOTICE" Link="NOTICE" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../README.md" Link="README.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../icp-brasil-roots.md" Link="icp-brasil-roots.md" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../gov-br-root.md" Link="gov-br-root.md" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

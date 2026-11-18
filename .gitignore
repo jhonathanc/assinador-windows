@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+artifacts/
+.vs/
+.idea/
+.tools/
+*.user
+*.suo
+*.pfx
+*.p12
+*.key
+*.cer
+*.pdf
+*.zip
+*.exe
+*.dll
+TestResults/
